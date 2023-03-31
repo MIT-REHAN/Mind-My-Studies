@@ -29,6 +29,31 @@ Version: 1.0
 /* BASIC TYPOGRAPHY */
 /*--------------------*/
 
+/* .pro li {
+	list-style: none;
+	background-color: rgb(164, 172, 62);
+	display: none;
+	border: none;
+}
+.pro ul li a{
+	display: block;
+}
+.navbar navbar-default mu-navbar ul li:hover ul li {
+	display: block;
+} */
+
+
+.mu-book-overview-single {
+	display: inline;
+	float: left;
+	text-align: center;
+	width: 100%;
+	background: #fff;
+	padding: 20px 10px;
+	margin: 10px 0 15px;
+}
+
+
 body,
 html {
 	overflow-x:hidden;
@@ -243,6 +268,28 @@ button:focus {
 
 }
 
+.mu-sociallink{
+	background-color: #ffffff;
+    border-radius: 100px;
+    border: solid 1px #a35555;
+    color: rgb(195 72 25);
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 12px 25px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+
+}
+
+.picimg{
+	
+    padding: -22px;
+    size: 40px;
+    padding-top: -47px;
+	margin-top: -82px;
+}
 /* my own edit  */
 .mu-primary-btn {
 	background-color: transparent;
@@ -332,6 +379,7 @@ button:focus {
 
 .navbar-default {
 	min-height: auto;
+	list-style-type: none;
 }
 
 .mu-navbar {
@@ -339,17 +387,19 @@ button:focus {
 	border: none;
 	border-radius: 0;
 	margin-bottom: 0;
+	list-style-type: none;
 }
 
 .navbar-default .mu-menu li a {
 	border-bottom: 2px solid transparent;
-	color: #fff;
+	color: #000;
 	font-size: 15px;
 	font-weight: 400;
 	padding: 0 0 5px;
 	margin: 10px 15px 5px;
 	transition: all 0.5s;
 	position: relative;
+	list-style-type: none;
 }
 
 .navbar-default .mu-menu li a:hover,
@@ -526,6 +576,7 @@ button:focus {
 	color: #1c1b1b;
 	margin-bottom: 15px;
 	position: relative;
+	padding-top: 2%;
 }
 
 .mu-header-dot {
@@ -543,15 +594,7 @@ button:focus {
 	width: 100%;
 }
 
-.mu-book-overview-single {
-	display: inline;
-	float: left;
-	text-align: center;
-	width: 100%;
-	background: #fff;
-	padding: 20px 10px;
-	margin: 10px 0 15px;
-}
+c
 
 .mu-book-overview-icon-box {
 	font-size: 25px;
@@ -561,7 +604,9 @@ button:focus {
 }
 
 .mu-book-overview-single h4{
-	margin-bottom: 20px;
+	margin-bottom: 22px;
+	margin-top: 15px;
+
 }
 
 
